@@ -201,6 +201,9 @@ hr.dark-small {
 .text-danger {
   color: #e74c3c;
 }
+.logo h4 {
+  padding-left:10px;
+}
 @media (min-width: 767px) {
   p {
     margin: 0 0 30px;
