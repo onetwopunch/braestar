@@ -149,6 +149,18 @@ p {
 .allcaps {
   text-transform: uppercase !important;
 }
+.left-align p{
+  text-align: left;
+}
+.img-mail {
+  border: solid 3px #41c4ab;
+  height: 160px;
+  width: 160px;
+}
+.img-mail:hover {
+  opacity: .75;
+  border: solid 3px #ea4c89;
+}
 hr.primary,
 hr.light,
 hr.dark {
@@ -187,6 +199,7 @@ hr.dark-small {
   color: #f4f5f7;
 }
 .text-primary {
+  font-size: 70%;
   color: #41c4ab;
 }
 .text-success {
@@ -203,6 +216,9 @@ hr.dark-small {
 }
 .logo h4 {
   padding-left:10px;
+}
+.logo h4 img {
+  height: 25px;
 }
 @media (min-width: 767px) {
   p {
@@ -452,6 +468,9 @@ a.light-text:focus {
   margin: 0;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
+}
+.brand-heading img {
+  height: 70px;
 }
 .intro-img .intro-body,
 .intro-img-half .intro-body,
